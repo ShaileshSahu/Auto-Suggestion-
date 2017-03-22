@@ -1,0 +1,72 @@
+	body{
+				background-image: url(../img/walls.jpg);
+			}
+			
+			#form-search
+			{
+				position: absolute;
+				top:350px;
+				left:690px;
+				
+			}
+			
+			#form-search #search
+			{
+				width:250px;
+				height:30px;
+				border-radius: 5px;
+				box-shadow: none;
+				border: none;
+			}
+			#form-search #submit
+			{
+				height:30px;
+				background:#2777be;
+				border: none;
+				border-radius: 1px 4px;
+				position: relative;
+				left:-6px;
+				transition: all .5s;
+			}
+			
+			#submit:hover
+			{
+				color:white;
+			}
+			
+			#suggestion
+			{
+				position: absolute;
+				top:369px;
+				left:690px;
+background: rgba( 99, 145, 186, 0.478 );
+				list-style: none;
+					font-family: arial;
+						color:rgba( 35, 141, 234, 0.664 );
+				border-radius: 0px 20px 20px 20px;
+			}
+			#suggestion li
+			{
+				width:200px;
+				background: #58aaf3;
+				padding: 8px;
+				border-radius: 1px;
+				
+			}
+			#suggestion li a
+			{
+				text-decoration: none;
+		color:none;
+			
+				
+			}
+
+.footer
+{
+	margin-top:570px;margin-left:850px;font-family:arial;color:
+			   rgba( 48, 113, 171, 0.664 );font-weight: 100;
+}
+pre
+{
+	display: inline;
+}
